@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Josefin Sans", sans-serif;
+    box-sizing: border-box;
+}
+img{
+    display: block;
+}
+body{
+    background-color: #233329;
+}
+.card{
+    width: 90%;
+    max-width: 470px;
+    background: linear-gradient(135deg, #69FFF1, #63D471);
+    color: #fff;
+    margin: 10rem auto 0;
+    border-radius: 20px;
+    padding: 3em 2em;
+    text-align: center;
+}
+/*SEARCH*/
+.search{
+    display: grid;
+    grid-template:1fr/8fr 1fr;
+    gap: 6px;
+}
+.search input{
+    border-radius: 20px;
+    padding: 1em;
+    background-color: transparent;
+}
+.search input:hover, 
+.search input:focus{
+    background-color: #69FFF1;
+} 
+.search button{
+    border-radius: 50px;
+    padding: 0.3em;
+    cursor: pointer;
+    background-color: transparent;
+}
+.search button:hover, 
+.search button:focus{
+    background-color: #63A46C;
+} 
+.search img{
+    max-width: 2em;
+    height: auto;
+}
+
+/*MAIN*/
+.main{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    align-items: center;
+    padding: 3em;
+}
+.main img{
+    max-height: 10em;
+    max-width: fit-content;
+    width: auto;
+}
+.temp{
+    padding-top: 0.2em;
+    font-size: 4em;
+}
+.city{
+    font-size: xx-large;
+}
+/*DETAILS*/
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2em;
+}
+.details img{
+    max-width: 4em;
+}
+.col{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+.text-div{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    margin-left: 1em;
+}
